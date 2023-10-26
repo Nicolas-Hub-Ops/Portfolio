@@ -253,6 +253,12 @@ main {
     opacity: 0.5;
   }
 
+  @media only screen and (max-width: 1250px) {
+    .title-page {
+      margin-top: 5em;
+    }
+  }
+
   @media only screen and (max-width: 900px) {
       .container__projects {
         margin: 5em 0;
