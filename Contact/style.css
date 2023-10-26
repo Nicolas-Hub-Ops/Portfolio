@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+
+.title-page {
+    margin-top: 3em;
+    font-size: 50px;
+    text-align: center;
+}
+
+.container-form {
+    width: 100%;
+    text-align: center;
+    margin-top: 10em;
+}
+
+.container-organized {
+    text-align: center;
+}
+
+.container-top, .container-medium {
+    display: inline-block;
+    width: 80%;
+}
+
+.container-top input, .container-medium input {
+    font-family: 'Iceland', cursive;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-size: 20px;
+    padding: 2px 4px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 30%;
+}
+
+.container-top input:focus, .container-medium input:focus {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid rgb(64,169,64);
+}
+
+.column-one {
+    margin-right: 8%;
+}
+
+.textarea-message {
+    font-family: 'Iceland', cursive;
+    font-size: 20px;
+    padding: 10px;
+}
+.textarea-message:focus {
+    outline: 0;
+    border: 1px solid rgb(64,169,64);
+} 
+
+.container-button {
+    text-align: center;
+}
+
+.submit-btn {
+    margin-top: 2em;
+    background: rgb(64,169,64);
+    font-family: 'Iceland';
+    font-size: 25px;
+    border: none;
+    padding: 1em 10em;
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.submit-btn:hover {
+    opacity: 0.5;
+    transform: translateY(4px);
+}
+
+.container-links ul {
+    margin-top: 10em;
+    text-align: center;
+}
+
+.container-links ul li {
+    display: inline-block;
+    margin: 0 1em;
+    font-size: 22px;
+}

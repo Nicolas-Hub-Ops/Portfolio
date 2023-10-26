@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Iceland&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+/*--------------- A P R E S E N T A Ç Ã O --------------------*/
+
+.container-intro {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20em;
+    padding-left: 5em;
+}
+
+.container-name, .container-photo {
+    display: inline-block;
+}
+.container-name {
+    vertical-align: top;
+    margin-top: 5em;
+}
+.container-photo {
+    margin-right: 3em;
+    vertical-align: bottom;
+}
+
+.container-name .item-one, .item-two {
+    font-size: 80px;
+}
+.container-name .item-three {
+    background: transparent;
+    font-size: 18px;
+    opacity: 0.3;
+}
+.container-name .container-button {
+    margin-top: 2em;
+}
+/*
+.container-name .container-button .btn-download {
+    font-family: 'Iceland', cursive;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 1px;
+    background: rgb(64, 169, 64);   
+    transition: all 0.2s;
+}
+*/
+
+.container-button {
+    display: flex;
+}
+
+
+/*     Button Download Custom      */
+
+.button__download {
+    position: relative;
+    width: 180px;
+    height: 60px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border: 1px solid #17795E;
+    background-color: #209978;
+    overflow: hidden;
+    font-family: iceland;
+    letter-spacing: 2px;
+    font-size: 20px;
+  }
+  
+  .button__download, .button__icon, .button__text {
+    transition: all 0.3s;
+  }
+  
+  .button__download .button__text {
+    transform: translateX(22px);
+    color: #fff;
+    font-weight: 600;
+  }
+  
+  .button__download .button__icon {
+    position: absolute;
+    transform: translateX(130px);
+    height: 100%;
+    width: 42px;
+    background-color: #17795E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .button__download .svg {
+    width: 20px;
+    fill: #fff;
+  }
+  
+  .button__download:hover {
+    background: #17795E;
+  }
+  
+  .button__download:hover .button__text {
+    color: transparent;
+  }
+  
+  .button__download:hover .button__icon {
+    width: 168px;
+    transform: translateX(0);
+  }
+  
+  .button__download:active .button__icon {
+    background-color: #146c54;
+  }
+  
+  .button__download:active {
+    border: 1px solid #146c54;
+  }
+
+
+/*       Button Read Custom       */
+
+
+.button__read {
+    font-family: 'Iceland', cursive;
+    font-size: 20px;
+    border: none;
+    background: rgb(25, 25, 25);
+    width: 180px;
+    height: 60px;
+    margin-left: 1em;
+    border-radius: 10px;
+    box-shadow: inset 0 0 20px rgb(5, 5, 5);
+    text-shadow: 0 0 10px #FFF;
+    transition: all 0.2s;
+  }
+  
+  .button__read:hover {
+    animation: shadowButtonRead 0.5s both alternate;
+  }
+  
+.container-photo img {
+    width: 400px;
+    border: 2px solid rgb(63, 63, 63);
+    border-radius: 100%;
+}
+
+/*--------------- A R E A - P A I N É I S --------------------*/
+
+.container-skills {
+    margin-top: 12em;
+}
+.container-skills h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-areas {
+    margin: 8em 0;
+    text-align: center;
+}
+
+.container-areas img {
+    width: 50px;
+    background: transparent;
+}
+.container-areas h2 {
+    background: transparent;
+}
+.container-areas div {
+    display: inline-block;
+}
+.container-areas div:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/*---------------  P A I N É I S --------------------*/
+
+.container-box-actived {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 7.5%;
+    padding: 1em 2em;
+    background: rgb(29, 29, 29);
+    border-top: 1px solid #000;
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    border-bottom: 5px solid rgb(64, 169, 64);
+    border-radius: 10px;
+}
+
+.container-box-desactived {
+    text-align: center;
+    font-size: 30px;
+    margin: 0 7.5%;
+    padding: 1em 2em;
+    background: rgb(29, 29, 29);
+    border-top: 1px solid rgb(29, 29, 29);
+    border-left: 1px solid rgb(29, 29, 29);
+    border-right: 1px solid rgb(29, 29, 29);
+    border-bottom: 5px solid rgb(29, 29, 29);
+    border-radius: 5px;
+}
+
+/*-------------- A R E A - I C O N S ---------------------*/
+
+.container-info ul {
+    text-align: center;
+    width: 80%;
+    background: rgb(29, 29, 29);
+    padding: 5em 0;
+    margin: 0 10%;
+    border-radius: 10px;
+    transition: all 0.2s;
+    animation-name: backgroundAnimate;
+    animation-duration: 1000ms;
+}
+
+.container-info ul li {
+    display: inline-block;
+    font-size: 35px;
+    background: rgb(29, 29, 29);
+    margin: 0 5%;
+    transition: all 0.2s;
+}
+
+.container-info ul li p {
+    background: transparent;
+    font-size: 20px;
+    margin-top: 1em;
+    animation-name: descAnimate;
+    animation-duration: 1s;
+}
+
+.disable {
+    transition: all 0.2s;
+    display: none;
+}
+
+/*----------------- I C O N S ------------------*/
+
+i {
+    background: transparent;
+    font-size: 80px;
+    color: rgb(64, 169, 64);
+    animation-name: iconAnimate;
+    animation-duration: 1s;
+}
+
+/*---------------- I N F O R M A Ç Õ E S -------------------*/
+
+
+.container-pessoal {
+    margin-top: 20em;
+}
+
+.container-pessoal h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container-pessoal .container-text {
+    margin-top: 6em;
+}
+
+.container-pessoal p {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 8px;
+    font-size: 18px;
+    text-align: center;
+}
+.container-pessoal p a {
+    color: blue;
+}
+.container-pessoal p a:hover {
+    color: darkblue;
+}
+.element-info ul {
+    margin-top: 5em;
+    text-align: center;
+}
+
+.element-info ul li {
+    display: inline-block;
+    font-size: 22px;
+}
+
+.element-info ul li img {
+    width: 70px;
+    margin: 0 5em;
+}
+
+/*----------------- A N I M A Ç Õ E S ------------------*/
+
+@keyframes animateMore {
+    from {
+      text-shadow: 0 0 10px #FFF;
+    }
+    
+    to {
+      text-shadow: 0 0 1em #FFF;
+    }
+  }
+
+@keyframes shadowButtonRead {
+    from {
+        box-shadow: 0 0 1px rgb(19, 19, 19);
+    }
+
+    to {
+        box-shadow: 0 0 20px cyan;
+    }
+}
+
+@keyframes backgroundAnimate {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 80%;
+    }
+}
+
+@keyframes iconAnimate {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size: 80px;
+    }
+}
+
+@keyframes descAnimate {
+    from {
+        font-size: 0;
+    }
+
+    to {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width: 1500px) {
+    .element-info ul li {
+       margin-top: 3em;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .container-photo {
+        margin-left: 25%;
+    }
+
+    .container-photo img {
+        width: 300px;
+        border: 2px solid rgb(63, 63, 63);
+        border-radius: 100%;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .container-name .item-one, .item-two {
+        font-size: 60px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .container-photo {
+        margin-left: 15%;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    .container-photo {
+        display: block;
+        text-align: center;
+        margin-left: 0;
+        margin-top: 2em;
+    }
+    .container-name {
+        display: block;
+        text-align: center;
+        margin-top: 0;
+        margin-left: 0;
+    }
+    .container-intro {
+        margin-top: 10em;
+    }
+    .container-pessoal p {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .container-info ul li {
+        display: block;
+        margin-top: 1em;
+    }
+    .container-info ul li p {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .container-areas div {
+        display: block;
+        margin-top: 1em;
+    }
+
+    .container-pessoal p {
+        font-size: 12px;
+    }
+
+    .container-pessoal .container-text {
+        margin-top: 3em;
+    }
+
+    .container-pessoal {
+        margin-top: 10em;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .container-photo img {
+        width: 200px;
+        border: 2px solid rgb(63, 63, 63);
+        border-radius: 100%;
+    }
+}
+

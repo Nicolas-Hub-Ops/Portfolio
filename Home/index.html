@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../asserts/reset.css">
+        <link rel="stylesheet" href="./style.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <title>Home - Nicolas</title>
+</head>
+<body>
+    <header class="first-element">
+        <nav class="menu-area-pc">
+            <h1>Developer.</h1>
+            <ul>
+                <li class="menu-active-pc">Home</li>
+                <li class="menu-item-pc"><a class="link-menu" href="../Project/index.html">Projetos</a></li>
+                <li class="menu-item-pc"><a class="link-menu" href="../Contact/index.html">Contato</a></li>
+            </ul>
+        </nav>
+        
+        <nav class="menu-area-movel">
+            <input type="checkbox" id="burger" class="input">
+            <div class="container-icon-menu">
+                <label class="menu__icon" for="burger">
+                    <span class="line__one"></span>
+                    <span class="line__two"></span>
+                    <span class="line__three"></span>
+                </label>
+            </div>
+            <div class="container__menu__itens" id="menu">
+                <h6 class="item__menu" id="item__ativo">Home</h6>
+                <a class="item__menu item__link" href="../Project/index.html">Projetos</a>
+                <a class="item__menu item__link" href="../Contact/index.html">Contato</a>
+            </div>
+            <h1>Developer.</h1>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="container-intro">
+            <div class="container-name">
+                <p class="item-one">Olá, meu nome é</p>
+                <p class="item-two">Nicolas Silva</p>
+                <p class="item-three">Front-End Developer</p>
+                <div class="container-button">
+                    <button class="button__download" type="button">
+                        <a href="../asserts/Curriculo.pdf" class="button__text" download>Currículo</a>
+                        <span class="button__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 35 35" id="bdd05811-e15d-428c-bb53-8661459f9307" data-name="Layer 2" class="svg"><path d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"></path><path d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"></path><path d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"></path></svg></span>
+                    </button>
+                    <button class="button__read">
+                        <a href="#my-info">Saiba Mais</a>
+                    </button>
+                </div>
+            </div>
+            <div class="container-photo">
+                <img src="../asserts/Photo.png" alt="My photo">
+            </div>
+        </div>
+
+        
+        <div class="container-skills">
+            <h1> Habilidades </h1>
+
+            <div class="container-areas">
+
+                <div id="front-panel" class="container-box-desactived">
+                    <img src="../asserts/front-end-icon.png" alt="icon">
+                    <h2>Front - End</h2>
+                </div>
+
+                <div id="back-panel" class="container-box-desactived">
+                    <img src="../asserts/database-icon.png" alt="icon">
+                    <h2> Back - End </h2>
+                </div>
+            </div>
+
+            <div id="front-info" class="disable">
+                <ul>
+                    <li>
+                        <i class="devicon-html5-plain-wordmark"></i>
+                        <p>HTML 5</p>    
+                    </li>
+                    <li>
+                        <i class="devicon-css3-plain-wordmark"></i>
+                        <p>CSS 3</p>
+                    </li>
+                    <li>
+                        <i class="devicon-javascript-plain"></i>
+                        <p>JavaScript</p>
+                    </li>
+                    <li>
+                        <i class="devicon-react-original"></i>
+                        <p>React Js</p>
+                    </li>
+                    <li>
+                        <i class="devicon-vuejs-plain"></i>
+                        <p>Vue Js</p>
+                    </li> 
+                </ul>
+            </div>
+            <div id="back-info" class="disable">
+                <ul>
+                    <li>
+                        <i class="devicon-nodejs-plain"></i>
+                        <p>Node Js</p>
+                    </li>
+                    <li>
+                        <i class="devicon-express-original"></i>
+                        <p>Express</p>
+                    </li>
+                    <li>
+                        <i class="devicon-mongodb-plain"></i>
+                        <p>Mongo DB</p>
+                    </li>
+                    <li>
+                        <i class="devicon-mysql-plain"></i>
+                        <p>My SQL</p>
+                    </li>
+                    <li>
+                        <i class="devicon-sequelize-plain"></i>
+                        <p>Sequelize</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-pessoal">
+            <h1 id="my-info"> Informações </h1>
+            <div class="element-info">
+                <div class="container-text">
+                    <p> Olá, meu nome é Nicolas Silva e sou um programador júnior, tenho 18 anos e comecei a estudar programação </p>
+                    <p> em 2020, desde então fiz diversos cursos na plataforma <a href="https://www.alura.com.br/">Alura</a>. </p>
+                    <p> Finalizei o ensino médio no ano de 2022 e estou cursando ciência de dados.</p>
+                    <p> Atualmente busco uma oportunidade para iniciar minha carreira </p>
+                    <p> profissional na área de tecnologia.</p>     
+                </div>
+                <ul>
+                    <li>
+                        <img src="../asserts//tag-info.png" alt="tag-info"/>
+                        <br>
+                        <br>
+                        <h3>Full Name</h3>
+                        <p>Nicolas Silva Canabarro</p>
+                    </li>
+                    <li>
+                        <img src="../asserts//tag-info.png" alt="tag-info"/>
+                        <br>
+                        <br>
+                        <h3>Age</h3>
+                        <p>18 Anos</p>
+                    </li>
+                    <li>
+                        <img src="../asserts//tag-info.png" alt="tag-info"/>
+                        <br>
+                        <br>
+                        <h3>Location</h3>
+                        <p>Brasília, DF</p>
+                    </li>
+                    <li>
+                        <img src="../asserts//tag-info.png" alt="tag-info"/>
+                        <br>
+                        <br>
+                        <h3>Experience</h3>
+                        <p>Júnior Developer</p>
+                    </li>
+                    <li>
+                        <img src="../asserts//tag-info.png" alt="tag-info"/>
+                        <br>
+                        <br>
+                        <h3>Study Time</h3>
+                        <p>+ 2 Anos</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="container-footer">
+            Copyright © 2023 Nicolas Silva. Todos os direitos reservados.
+        </div>
+    </footer>
+</body>
+</html>
+
+<script src="./skills.js"></script>
