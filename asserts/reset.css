@@ -338,3 +338,15 @@ body {
     font-size: 18px;
     background: rgb(30, 30, 30);
 }
+
+@media only screen and (max-width: 800px) {
+    .container__menu__itens {
+        width: 40vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container__menu__itens {
+        width: 50vw;
+    }
+}
