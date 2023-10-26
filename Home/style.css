@@ -382,15 +382,14 @@ i {
     .container-name {
         display: block;
         text-align: center;
-        margin-top: 0;
+        margin-top: 4em;
         margin-left: 0;
     }
     .container-intro {
         margin-top: 10em;
     }
     .container-pessoal p {
-        width: 70%;
-        margin-left: 15%;
+        width: 100%;
     }
 
     .container-info ul li {
@@ -403,6 +402,28 @@ i {
 }
 
 @media only screen and (max-width: 750px) {
+    .container-intro {
+        display: block;
+        margin: 3em 0;
+        margin-top: 20em;
+        padding: 0;
+    }
+
+    .container-name {
+        display: block;
+    }
+
+    .container-button {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+    }
+    .container-photo {
+        display: flex;
+        justify-content: center;
+        margin: 3em;
+    }
+
     .container-areas div {
         display: block;
         margin-top: 1em;
