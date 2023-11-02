@@ -161,60 +161,27 @@ main {
   }
   
   .logo .circle {
+    border-radius: 100%;
     display: block;
     position: absolute;
     aspect-ratio: 1;
-    border-radius: 50%;
     top: 0;
     right: 0;
-    box-shadow: rgb(0 105 37 / 20%) -10px 10px 20px 0px;
+    box-shadow: rgba(255, 255, 255, 0.2) -10px 10px 20px 0px;
     -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
     background: rgb(27 27 27 / 20%);
     transition: all 0.5s ease-in-out;
   }
   
-  .logo .circle1 {
-    width: 170px;
-    transform: translate3d(0, 0, 20px);
-    top: 8px;
-    right: 8px;
-  }
-  
-  .logo .circle2 {
-    width: 140px;
-    transform: translate3d(0, 0, 40px);
-    top: 10px;
-    right: 10px;
-    -webkit-backdrop-filter: blur(1px);
-    backdrop-filter: blur(1px);
-    transition-delay: 0.4s;
-  }
-  
-  .logo .circle3 {
-    width: 110px;
-    transform: translate3d(0, 0, 60px);
-    top: 17px;
-    right: 17px;
-    transition-delay: 0.8s;
-  }
-  
-  .logo .circle4 {
-    width: 80px;
-    transform: translate3d(0, 0, 80px);
-    top: 23px;
-    right: 23px;
-    transition-delay: 1.2s;
-  }
-  
   .logo .circle5 {
     width: 50px;
-    transform: translate3d(0, 0, 100px);
+    transform: translate3d(0, 0, 10px);
     top: 30px;
     right: 30px;
     display: grid;
     place-content: center;
-    transition-delay: 1.6s;
+    transition-delay: 0.5s;
   }
   
   .logo .circle5 .svg {
@@ -223,29 +190,29 @@ main {
   }
   
   .project:hover .card {
-    transform: rotate3d(1, 1, 0, 30deg);
-    box-shadow: rgba(5, 71, 17, 0.3) 30px 50px 25px -40px, rgba(5, 71, 17, 0.1) 0px 25px 30px 0px;
+    transform: translate3d(0, 0, 50px);
+    box-shadow: rgba(120, 120, 120) 50px, 50px, 50px, 50px;
   }
   
   .project:hover .card .view__project .social-buttons-container .social-button {
-    transform: translate3d(0, 0, 50px);
-    box-shadow: rgba(5, 71, 17, 0.2) -5px 20px 10px 0px;
+    transform: translate3d(0, 0, 10px);
+    box-shadow: rgba(124, 124, 124, 0.2) -5px 20px 10px 0px;
   }
   
   .project:hover .card .logo .circle2 {
-    transform: translate3d(0, 0, 60px);
+    transform: translate3d(0, 0, 30px);
   }
   
   .project:hover .card .logo .circle3 {
-    transform: translate3d(0, 0, 80px);
+    transform: translate3d(0, 0, 40px);
   }
   
   .project:hover .card .logo .circle4 {
-    transform: translate3d(0, 0, 100px);
+    transform: translate3d(0, 0, 50px);
   }
   
   .project:hover .card .logo .circle5 {
-    transform: translate3d(0, 0, 120px);
+    transform: translate3d(0, 0, 60px);
   }
 
   .view__btn:hover {
